@@ -12,7 +12,7 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | **NIM** | `254107060069` |
 | **Kelas** | SIB - 2D |
 | **Program Studi** | D-IV Sistem Informasi Bisnis |
-| **Dosen Pengampu** | Moch Zawaruddin Abdullah, S.Kom., M.Kom. |
+| **Dosen Pengampu** | Moch Zawaruddin Abdullah, S.ST., M.Kom. |
 
 ---
 
