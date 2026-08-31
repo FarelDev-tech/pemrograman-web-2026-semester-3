@@ -22,8 +22,8 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | - | --- | --- | --- | - |
 | 01 | **Jobsheet 01** | HTML5 Semantic Skeleton & Form/Table Structure | [`/jobsheet1`](./jobsheet1) | ✅ Selesai |
 | 02 | **Jobsheet 02** | CSS3 Styling Dasar (Box Model, Flexbox, CSS Grid) | [`/jobsheet2`](./jobsheet2) | ✅ Selesai |
-| 03 | **Jobsheet 03** | Responsive Web Design & Media Queries | `/jobsheet3` | ⏹️ Mendatang |
-| 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini | `/jobsheet4` | ⏹️ Mendatang |
+| 03 | **Jobsheet 03** | Responsive Web Design & Media Queries | [`/jobsheet3`](./jobsheet3) | ⏳ On Progress |
+| 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini | [`/jobsheet4`](./jobsheet4) | ⏳ On Progress |
 | 05 | **Jobsheet 05** | DOM Manipulation & Form Validation (JavaScript) | `/jobsheet5` | ⏹️ Mendatang |
 | 06 | **Jobsheet 06** | Asynchronous JavaScript, Fetch API & JSON | `/jobsheet6` | ⏹️ Mendatang |
 | 07 | **Jobsheet 07** | Pengenalan PHP Native & Templating Modular | `/jobsheet7` | ⏹️ Mendatang |
