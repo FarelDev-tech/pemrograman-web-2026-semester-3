@@ -21,7 +21,7 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | No | Jobsheet | Topik Pembelajaran | Direktori | Status |
 | - | --- | --- | --- | - |
 | 01 | **Jobsheet 01** | HTML5 Semantic Skeleton & Form/Table Structure | [`/jobsheet1`](./jobsheet1) | ✅ Selesai |
-| 02 | **Jobsheet 02** | CSS3 Styling Dasar (Box Model, Flexbox, CSS Grid) | [`/jobsheet2`](./jobsheet2) | ⏳ On Progress |
+| 02 | **Jobsheet 02** | CSS3 Styling Dasar (Box Model, Flexbox, CSS Grid) | [`/jobsheet2`](./jobsheet2) | ✅ Selesai |
 | 03 | **Jobsheet 03** | Responsive Web Design & Media Queries | `/jobsheet3` | ⏹️ Mendatang |
 | 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini | `/jobsheet4` | ⏹️ Mendatang |
 | 05 | **Jobsheet 05** | DOM Manipulation & Form Validation (JavaScript) | `/jobsheet5` | ⏹️ Mendatang |
@@ -40,7 +40,7 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 
 ```text
 pemrograman-web-2026-semester-3/
-├── README.md               <-- Dokumentasi utama repositori
+├── README.md               <-- Dokumentasi Progress Jobsheet
 ├── jobsheet1/              <-- Praktikum 1: HTML5 Semantic
 │   ├── index.html
 │   ├── buku/
@@ -55,5 +55,5 @@ pemrograman-web-2026-semester-3/
 │   │   └── style.css
 │   ├── buku/
 │   └── anggota/
-└── ...
+└── ... dst
 ```
