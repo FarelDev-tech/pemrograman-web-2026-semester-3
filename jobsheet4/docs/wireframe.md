@@ -24,6 +24,17 @@ Halaman yang sudah ada belum mencakup fitur Login, Dashboard Petugas, dan Peminj
         -> [Kembali ke Dashboard]
 ```
 
+## User Flow — Pemeriksaan Tunggakan Buku Terlambat
+<!-- Jobsheet 4 Soal 2: Menambahkan User Flow Baru untuk Pemeriksaan Buku Terlambat -->
+
+```
+[Dashboard] -> [Pilih menu/kartu "Buku Terlambat"]
+        -> [Sistem menyaring transaksi: Tanggal Sekarang > Batas Kembali]
+        -> [Pilih Anggota Terlambat] -> [Klik "Kirim Peringatan / Hitung Denda"]
+        -> [Sistem mencatat denda keterlambatan] -> [Kembali ke Dashboard]
+```
+
+
 ## Wireframe: Halaman Login
 
 ```
@@ -95,5 +106,28 @@ Halaman yang sudah ada belum mencakup fitur Login, Dashboard Petugas, dan Peminj
 |  Buku           | Pinjam   | Kembali | Status   |
 |  Laskar Pelangi | 01/07    | 10/07   | Selesai  |
 |  Bumi Manusia   | 15/07    | -       | Dipinjam |
++-------------------------------------------------+
+```
+
+## Wireframe: Registrasi Anggota Baru
+
+<!-- Jobsheet 4 Latihan 1: Menambahkan Wireframe baru untuk anggota baru -->
+
+```
++-------------------------------------------------+
+|                   SIMPUS-Mini                   |
+|-------------------------------------------------|
+|                                                 |
+|          [ Registrasi Anggota Baru ]            |
+|                                                 |
+|   Nama Lengkap    : [________________________]  |
+|   Alamat          : [________________________]  |
+|   Nomor WhatsApp  : [________________________]  |
+|   Alamat Email    : [________________________]  |
+|   Kata Sandi      : [________________________]  |
+|                                                 |
+|              [  Daftar Sekarang  ]              |
+|                                                 |
+|      Sudah punya akun? Masuk di sini            |
 +-------------------------------------------------+
 ```
