@@ -37,14 +37,12 @@ header h1 {
     font-size: 1.4rem;
 }
 
-.nav-toggle {
-    display: none;
-}
-
 .nav-toggle-label { 
     display: block;
     font-size: 1.6rem;
     color: #fff;
+    background: none;
+    border: none;
     cursor: pointer;
 }
 
@@ -55,7 +53,7 @@ header nav {
     margin-top: 1rem;
 }
 
-.nav-toggle:checked ~ nav {
+header nav.nav-open {
     display: block;
 }
 
@@ -216,6 +214,27 @@ pre {
 /* Table Responsive */
 .table-responsive {
     overflow-x: auto;
+}
+
+/* Pesan Error tuk Memvalidasi */
+.error {
+    display: block;
+    color: #d9534f;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* Kolom Pencarian */
+.search-box {
+    margin-bottom: 1rem;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #cdd4da;
+    border-radius: 4px;
 }
 
 /* Responsive Tablet */
