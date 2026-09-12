@@ -12,7 +12,7 @@ async function muatDaftarBuku() {
         await new Promise((resolve) => setTimeout(resolve, 600));
 
         // Mencoba sementara buku yg salah
-        const res = await fetch("../data/buku-salah.json");
+        const res = await fetch("../data/buku.json");
         if (!res.ok) {
             throw new Error("Gagal mengambil data (status " + res.status + ")");
         }
