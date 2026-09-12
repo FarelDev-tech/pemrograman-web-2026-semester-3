@@ -1,4 +1,4 @@
-// ===== Hamburger menu (JS-driven, menggantikan checkbox hack) =====
+// Hamburger menu (JS-driven, menggantikan checkbox hack)
 function initNavToggle() {
     const toggleBtn = document.getElementById("nav-toggle-btn");
     const nav = document.querySelector("header nav");
@@ -9,9 +9,12 @@ function initNavToggle() {
     });
 }
 
-// Memakai event delegation di document karena baris tabel sekarang
+// Konfirmasi hapus (front-end only, belum ke server)
 function initHapusConfirm() {
     document.addEventListener("click", function (e) {
+        // Jobsheet 6 Latihan 4: Eksperimen delegasi event untuk mengamati target klik di document
+        console.log("Elemen target klik (e.target):", e.target);
+
         const btn = e.target.closest(".btn-hapus");
         if (!btn) return;
 
@@ -24,7 +27,7 @@ function initHapusConfirm() {
     });
 }
 
-// ===== Filter/pencarian tabel real-time =====
+// Filter/pencarian tabel real-time
 function initTableFilter() {
     const input = document.getElementById("search-input");
     const table = document.querySelector(".table-responsive table");
@@ -40,7 +43,7 @@ function initTableFilter() {
     });
 }
 
-// ===== Validasi form (client-side) =====
+// Validasi form (client-side)
 function tampilkanError(input, pesan) {
     hapusError(input);
     const span = document.createElement("span");
@@ -105,6 +108,51 @@ function initValidasiForm() {
             e.preventDefault();
         }
     });
+}
+
+// Jobsheet 6 Latihan 2: Fungsi fetch dan render data tabel
+async function muatDataTabel(urlJson, daftarKunci) {
+    const tbody = document.querySelector(".table-responsive table tbody");
+    const loading = document.getElementById("loading-indicator");
+    if (!tbody) return;
+
+    if (loading) loading.style.display = "block";
+    tbody.innerHTML = "";
+
+    try {
+        // Jobsheet 6 Latihan 5: Mengubah delay simulasi jaringan menjadi 3000ms (3 detik) agar indikator loading terlihat jelas
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+
+        const res = await fetch(urlJson);
+        if (!res.ok) {
+            throw new Error("Gagal mengambil data (status " + res.status + ")");
+        }
+        const dataList = await res.json();
+
+        dataList.forEach(function (item) {
+            const tr = document.createElement("tr");
+
+            // Render sel data berdasarkan daftar kunci yang ditentukan
+            let htmlSel = "";
+            daftarKunci.forEach(function (kunci) {
+                htmlSel += "<td>" + item[kunci] + "</td>";
+            });
+
+            // Kolom aksi standar
+            htmlSel += "<td>" +
+                "<button type=\"button\">Edit</button> " +
+                "<button type=\"button\" class=\"btn-hapus\">Hapus</button>" +
+                "</td>";
+
+            tr.innerHTML = htmlSel;
+            tbody.appendChild(tr);
+        });
+    } catch (err) {
+        tbody.innerHTML =
+            "<tr><td colspan=\"" + (daftarKunci.length + 1) + "\">Gagal memuat data: " + err.message + "</td></tr>";
+    } finally {
+        if (loading) loading.style.display = "none";
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
