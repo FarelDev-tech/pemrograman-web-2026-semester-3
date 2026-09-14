@@ -26,8 +26,8 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini | [`/jobsheet4`](./jobsheet4) | ✅ Selesai |
 | 05 | **Jobsheet 05** | DOM Manipulation & Form Validation (JavaScript) | [`/jobsheet5`](./jobsheet5) | ✅ Selesai |
 | 06 | **Jobsheet 06** | Asynchronous JavaScript, Fetch API & JSON | [`/jobsheet6`](./jobsheet6) | ✅ Selesai |
-| 07 | **Jobsheet 07** | Pengenalan PHP Native & Templating Modular | `/jobsheet7` | ⏹️ Mendatang |
-| 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & CRUD Dasar | `/jobsheet8` | ⏹️ Mendatang |
+| 07 | **Jobsheet 07** | Pengenalan PHP Native & Templating Modular | [`/jobsheet7`](./jobsheet7) | ⏳ On Progress |
+| 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & CRUD Dasar | [`/jobsheet8`](./jobsheet8) | ⏳ On Progress |
 | 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination | `/jobsheet9` | ⏹️ Mendatang |
 | 10 | **Jobsheet 10** | Autentikasi Pengguna & Session Management | `/jobsheet10` | ⏹️ Mendatang |
 | 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection) | `/jobsheet11` | ⏹️ Mendatang |
