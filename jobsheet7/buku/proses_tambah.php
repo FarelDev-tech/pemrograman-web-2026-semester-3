@@ -9,7 +9,6 @@ $stok = $_POST['stok'] ?? '';
 $kategori = trim($_POST['kategori'] ?? '');
 
 // Validasi server-side — wajib ada meski sudah divalidasi JS di Jobsheet 5,
-// karena validasi client bisa dilewati (nonaktifkan JS / kirim request manual).
 $errors = [];
 if ($judul === '') {
     $errors[] = "Judul wajib diisi.";
@@ -22,6 +21,11 @@ if (!is_numeric($tahun) || $tahun < 1900 || $tahun > 2026) {
 }
 if (!is_numeric($stok) || $stok < 0) {
     $errors[] = "Stok tidak boleh negatif.";
+}
+
+// Jobsheet 7 Latihan 1: Validasi format ISBN (hanya angka dan tanda hubung jika diisi)
+if ($isbn !== '' && !preg_match('/^[0-9\-]+$/', $isbn)) {
+    $errors[] = "Format ISBN tidak valid! Hanya boleh berisi angka dan tanda hubung.";
 }
 
 if (!empty($errors)) {

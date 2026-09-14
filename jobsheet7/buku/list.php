@@ -16,6 +16,8 @@ $daftarBuku = $_SESSION['buku'] ?? [];
             <div class="search-box">
                 <label for="search-input">Cari Judul Buku</label>
                 <input type="text" id="search-input" placeholder="Ketik judul buku...">
+                <!-- Jobsheet 7 Latihan 4: Tombol Reset Data Sesi -->
+                <a href="../reset_session.php" onclick="return confirm('Apakah Anda yakin ingin mengosongkan seluruh data sesi?');" style="margin-left: 0.75rem; color: #d9534f; font-weight: 500; font-size: 0.9rem; text-decoration: underline;">Reset Data Sesi</a>
             </div>
 
             <div class="table-responsive">
