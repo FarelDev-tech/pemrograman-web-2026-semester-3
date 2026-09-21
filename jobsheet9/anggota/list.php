@@ -1,4 +1,5 @@
 <?php
+// Jobsheet 9 Latihan 4: Penerapan pola CRUD modular (Read + Pagination) pada entitas Anggota
 $page_title = "Daftar Anggota";
 include __DIR__ . '/../includes/header.php';
 require __DIR__ . '/../includes/koneksi.php';
@@ -6,7 +7,7 @@ require __DIR__ . '/../includes/koneksi.php';
 $flash = $_SESSION['flash'] ?? null;
 unset($_SESSION['flash']);
 
-$perPage = 5;
+$perPage = 10;
 $page = max(1, (int) ($_GET['page'] ?? 1));
 $offset = ($page - 1) * $perPage;
 $keyword = trim($_GET['q'] ?? '');

@@ -1,4 +1,5 @@
 <?php
+// Jobsheet 9 Latihan 4: Penerapan pola Delete via POST pada entitas Anggota
 session_start();
 require __DIR__ . '/../includes/koneksi.php';
 

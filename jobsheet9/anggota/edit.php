@@ -28,7 +28,8 @@ if (!$anggota) {
                 <p class="flash flash-<?php echo $flash['type']; ?>"><?php echo $flash['pesan']; ?></p>
             <?php endif; ?>
 
-            <form id="form-tambah" method="post" action="proses_edit.php">
+            <!-- Jobsheet 9 Latihan 1: Konfirmasi ekstra sebelum update data -->
+            <form id="form-tambah" method="post" action="proses_edit.php" onsubmit="return confirm('Apakah Anda yakin ingin menyimpan perubahan data anggota ini?');">
                 <input type="hidden" name="id" value="<?php echo $anggota['id']; ?>">
                 <p>
                     <label for="nama">Nama</label><br>
