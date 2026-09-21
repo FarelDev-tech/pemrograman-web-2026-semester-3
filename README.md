@@ -28,7 +28,7 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | 06 | **Jobsheet 06** | Asynchronous JavaScript, Fetch API & JSON | [`/jobsheet6`](./jobsheet6) | ✅ Selesai |
 | 07 | **Jobsheet 07** | Pengenalan PHP Native, Templating Modular & Session Handling | [`/jobsheet7`](./jobsheet7) | ✅ Selesai |
 | 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & Persistensi Data | [`/jobsheet8`](./jobsheet8) | ✅ Selesai |
-| 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination | `/jobsheet9` | ⏹️ Mendatang |
+| 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination | [`/jobsheet9`](./jobsheet9) | ⏳ Pending |
 | 10 | **Jobsheet 10** | Autentikasi Pengguna & Session Management | `/jobsheet10` | ⏹️ Mendatang |
 | 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection) | `/jobsheet11` | ⏹️ Mendatang |
 | 12 | **Jobsheet 12** | Relasi Antar Entitas (Peminjaman & Pengembalian) | `/jobsheet12` | ⏹️ Mendatang |
