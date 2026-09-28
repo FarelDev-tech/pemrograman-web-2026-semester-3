@@ -219,6 +219,24 @@ form select {
     font-size: 1rem;
 }
 
+/* Khusus checkbox agar tidak melebar 100% dan sejajar dengan teks */
+form input[type="checkbox"] {
+    width: auto;
+    max-width: none;
+    margin: 0 0.5rem 0 0;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+form label.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    color: #444;
+}
+
 form button[type="submit"] {
     background-color: #1d5b8a;
     color: #fff;

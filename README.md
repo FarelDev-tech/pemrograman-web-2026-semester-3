@@ -6,33 +6,33 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 
 ## 👤 Identitas Mahasiswa
 
-| Informasi | Detail |
-| --- | --- |
-| **Nama Lengkap** | Farel Maulana Firdaus |
-| **NIM** | `254107060069` |
-| **Kelas** | SIB - 2D |
-| **Program Studi** | D-IV Sistem Informasi Bisnis |
+| Informasi                | Detail                                  |
+| ------------------------ | --------------------------------------- |
+| **Nama Lengkap**   | Farel Maulana Firdaus                   |
+| **NIM**            | `254107060069`                        |
+| **Kelas**          | SIB - 2D                                |
+| **Program Studi**  | D-IV Sistem Informasi Bisnis            |
 | **Dosen Pengampu** | Moch Zawaruddin Abdullah, S.ST., M.Kom. |
 
 ---
 
 ## 🗓️ Daftar Jobsheet & Progres Mingguan
 
-| No | Jobsheet | Topik Pembelajaran | Direktori | Status |
-| - | --- | --- | --- | - |
-| 01 | **Jobsheet 01** | HTML5 Semantic Skeleton & Form/Table Structure | [`/jobsheet1`](./jobsheet1) | ✅ Selesai |
-| 02 | **Jobsheet 02** | CSS3 Styling Dasar (Box Model, Flexbox, CSS Grid) | [`/jobsheet2`](./jobsheet2) | ✅ Selesai |
-| 03 | **Jobsheet 03** | Responsive Web Design & Media Queries | [`/jobsheet3`](./jobsheet3) | ✅ Selesai |
-| 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini | [`/jobsheet4`](./jobsheet4) | ✅ Selesai |
-| 05 | **Jobsheet 05** | DOM Manipulation & Form Validation (JavaScript) | [`/jobsheet5`](./jobsheet5) | ✅ Selesai |
-| 06 | **Jobsheet 06** | Asynchronous JavaScript, Fetch API & JSON | [`/jobsheet6`](./jobsheet6) | ✅ Selesai |
-| 07 | **Jobsheet 07** | Pengenalan PHP Native, Templating Modular & Session Handling | [`/jobsheet7`](./jobsheet7) | ✅ Selesai |
-| 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & Persistensi Data | [`/jobsheet8`](./jobsheet8) | ✅ Selesai |
-| 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination | [`/jobsheet9`](./jobsheet9) | ✅ Selesai |
-| 10 | **Jobsheet 10** | Autentikasi Pengguna & Session Management | [`/jobsheet10`](./jobsheet10) | ⏳ Pending |
-| 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection) | [`/jobsheet11`](./jobsheet11) | ⏳ Pending |
-| 12 | **Jobsheet 12** | Relasi Antar Entitas (Peminjaman & Pengembalian) | `/jobsheet12` | ⏹️ Mendatang |
-| 13 | **Jobsheet 13** | Finalisasi Proyek SIMPUS-Mini & Deployment | `/jobsheet13` | ⏹️ Mendatang |
+| No | Jobsheet              | Topik Pembelajaran                                           | Direktori                      | Status         |
+| -- | --------------------- | ------------------------------------------------------------ | ------------------------------ | -------------- |
+| 01 | **Jobsheet 01** | HTML5 Semantic Skeleton & Form/Table Structure               | [`/jobsheet1`](./jobsheet1)   | ✅ Selesai     |
+| 02 | **Jobsheet 02** | CSS3 Styling Dasar (Box Model, Flexbox, CSS Grid)            | [`/jobsheet2`](./jobsheet2)   | ✅ Selesai     |
+| 03 | **Jobsheet 03** | Responsive Web Design & Media Queries                        | [`/jobsheet3`](./jobsheet3)   | ✅ Selesai     |
+| 04 | **Jobsheet 04** | Perancangan UI/UX & User Flow SIMPUS-Mini                    | [`/jobsheet4`](./jobsheet4)   | ✅ Selesai     |
+| 05 | **Jobsheet 05** | DOM Manipulation & Form Validation (JavaScript)              | [`/jobsheet5`](./jobsheet5)   | ✅ Selesai     |
+| 06 | **Jobsheet 06** | Asynchronous JavaScript, Fetch API & JSON                    | [`/jobsheet6`](./jobsheet6)   | ✅ Selesai     |
+| 07 | **Jobsheet 07** | Pengenalan PHP Native, Templating Modular & Session Handling | [`/jobsheet7`](./jobsheet7)   | ✅ Selesai     |
+| 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & Persistensi Data             | [`/jobsheet8`](./jobsheet8)   | ✅ Selesai     |
+| 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination                           | [`/jobsheet9`](./jobsheet9)   | ✅ Selesai     |
+| 10 | **Jobsheet 10** | Autentikasi Pengguna & Session Management                    | [`/jobsheet10`](./jobsheet10) | ✅ Selesai     |
+| 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection)                | [`/jobsheet11`](./jobsheet11) | ⏳ Pending     |
+| 12 | **Jobsheet 12** | Relasi Antar Entitas (Peminjaman & Pengembalian)             | `/jobsheet12`                | ⏹️ Mendatang |
+| 13 | **Jobsheet 13** | Finalisasi Proyek SIMPUS-Mini & Deployment                   | `/jobsheet13`                | ⏹️ Mendatang |
 
 ---
 
