@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/../includes/auth.php';
 // Jobsheet 9 Latihan 4: Penerapan pola CRUD modular (Read + Pagination) pada entitas Anggota
 $page_title = "Daftar Anggota";
 include __DIR__ . '/../includes/header.php';

@@ -185,6 +185,18 @@ td form.form-hapus {
     cursor: pointer;
 }
 
+.auth-status {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #fff;
+}
+
+.auth-status a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 /* ===== Form ===== */
 form p {
     margin-bottom: 1rem;
