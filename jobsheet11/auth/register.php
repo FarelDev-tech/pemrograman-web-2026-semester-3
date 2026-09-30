@@ -16,11 +16,13 @@ unset($_SESSION['flash']);
 <section>
     <h2>Registrasi Petugas</h2>
 
+    <!-- Jobsheet 11 Latihan 3: Terapkan e() pada pesan flash di register.php -->
     <?php if ($flash): ?>
-        <p class="flash flash-<?php echo $flash['type']; ?>"><?php echo $flash['pesan']; ?></p>
+        <p class="flash flash-<?php echo e($flash['type']); ?>"><?php echo e($flash['pesan']); ?></p>
     <?php endif; ?>
 
     <form method="post" action="proses_register.php">
+        <?php echo csrf_field(); ?>
         <p>
             <label for="nama">Nama</label><br>
             <input type="text" id="nama" name="nama" required>

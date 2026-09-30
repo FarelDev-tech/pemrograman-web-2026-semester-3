@@ -16,11 +16,13 @@ unset($_SESSION['flash']);
 <section>
     <h2>Login Petugas</h2>
 
+    <!-- Jobsheet 11 Latihan 3: Menerapkan e() pada pesan flash yang berpotensi isi input username pengguna -->
     <?php if ($flash): ?>
-        <p class="flash flash-<?php echo $flash['type']; ?>"><?php echo $flash['pesan']; ?></p>
+        <p class="flash flash-<?php echo e($flash['type']); ?>"><?php echo e($flash['pesan']); ?></p>
     <?php endif; ?>
 
     <form method="post" action="proses_login.php">
+        <?php echo csrf_field(); ?>
         <p>
             <label for="username">Username</label><br>
             <input type="text" id="username" name="username" required>

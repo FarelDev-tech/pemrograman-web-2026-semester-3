@@ -30,7 +30,7 @@ Repositori  tugas praktikum mata kuliah **Pemrograman Web**, Jurusan Teknologi I
 | 08 | **Jobsheet 08** | Integrasi Database PostgreSQL & Persistensi Data             | [`/jobsheet8`](./jobsheet8)   | ✅ Selesai     |
 | 09 | **Jobsheet 09** | CRUD Lanjutan, Filter & Pagination                           | [`/jobsheet9`](./jobsheet9)   | ✅ Selesai     |
 | 10 | **Jobsheet 10** | Autentikasi Pengguna & Session Management                    | [`/jobsheet10`](./jobsheet10) | ✅ Selesai     |
-| 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection)                | [`/jobsheet11`](./jobsheet11) | ⏳ Pending     |
+| 11 | **Jobsheet 11** | Keamanan Web (SQL Injection & XSS Protection)                | [`/jobsheet11`](./jobsheet11) | ✅ Selesai     |
 | 12 | **Jobsheet 12** | Relasi Antar Entitas (Peminjaman & Pengembalian)             | `/jobsheet12`                | ⏹️ Mendatang |
 | 13 | **Jobsheet 13** | Finalisasi Proyek SIMPUS-Mini & Deployment                   | `/jobsheet13`                | ⏹️ Mendatang |
 

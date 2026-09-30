@@ -2,7 +2,10 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+require __DIR__ . '/../includes/csrf.php';
 require __DIR__ . '/../includes/koneksi.php';
+
+csrf_verify();
 
 $username = trim($_POST['username'] ?? '');
 $password = $_POST['password'] ?? '';
@@ -30,6 +33,9 @@ $stmt->execute(['username' => $username]);
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if ($user && password_verify($password, $user['password'])) {
+    // Regenerasi session ID setelah login berhasil untuk mencegah session fixation.
+    session_regenerate_id(true);
+
     // Jobsheet 10 Latihan 3: Reset counter percobaan gagal jika login berhasil
     unset($_SESSION['login_attempts'][$userKey]);
 

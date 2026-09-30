@@ -2,11 +2,16 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/csrf.php';
 $sudahLogin = isset($_SESSION['user_id']);
+
+// Jobsheet 11 Latihan 4: Lapisan pertahanan Content-Security-Policy (CSP) terhadap XSS
+header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self';");
 
 // Prefix relatif ke root proyek ini (bukan root domain) — supaya
 // /assets, /index.php, dst tetap benar walau proyek diakses lewat
-// subfolder (mis. dp2026.test/kode-praktikum/jobsheet-10/), bukan cuma
+// subfolder (mis. dp2026.test/kode-praktikum/jobsheet-11/), bukan cuma
 // lewat vhost yang document root-nya langsung folder ini.
 $__jobsheetRoot = dirname(__DIR__);
 $__scriptDir = dirname($_SERVER['SCRIPT_FILENAME']);
@@ -18,7 +23,8 @@ $base = $__rel === '' ? '' : str_repeat('../', substr_count($__rel, '/') + 1);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SIMPUS-Mini<?php echo isset($page_title) ? ' | ' . $page_title : ''; ?></title>
+    <!-- Jobsheet 11 Latihan 3: Escaping variabel $page_title pada tag title -->
+    <title>SIMPUS-Mini<?php echo isset($page_title) ? ' | ' . e($page_title) : ''; ?></title>
     <link rel="stylesheet" href="<?php echo $base; ?>assets/css/style.css">
 </head>
 <body>
@@ -38,7 +44,7 @@ $base = $__rel === '' ? '' : str_repeat('../', substr_count($__rel, '/') + 1);
         </nav>
         <div class="auth-status">
             <?php if ($sudahLogin): ?>
-                <span><?php echo $_SESSION['nama']; ?></span>
+                <span><?php echo e($_SESSION['nama']); ?></span>
                 <a href="<?php echo $base; ?>auth/logout.php">Logout</a>
             <?php else: ?>
                 <a href="<?php echo $base; ?>auth/login.php">Login</a>
