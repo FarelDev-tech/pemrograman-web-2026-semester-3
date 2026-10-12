@@ -1,0 +1,3 @@
+# Abaikan file environment lokal yang menyimpan kredensial sensitif
+.env
+.env.local

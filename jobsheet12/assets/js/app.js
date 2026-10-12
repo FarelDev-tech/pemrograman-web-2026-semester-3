@@ -1,4 +1,4 @@
-// ===== Hamburger menu (JS-driven, menggantikan checkbox hack) =====
+// Hamburger menu (JS-driven, menggantikan checkbox hack)
 function initNavToggle() {
     const toggleBtn = document.getElementById("nav-toggle-btn");
     const nav = document.querySelector("header nav");
@@ -9,7 +9,6 @@ function initNavToggle() {
     });
 }
 
-// ===== Konfirmasi hapus =====
 // Tombol Hapus kini berada di dalam <form class="form-hapus" method="post">
 // yang benar-benar mengirim request DELETE ke server (buku/hapus.php,
 // anggota/hapus.php). Konfirmasi dilakukan pada event "submit" agar bisa
@@ -28,7 +27,7 @@ function initHapusConfirm() {
     });
 }
 
-// ===== Filter/pencarian tabel real-time =====
+// Filter/pencarian tabel real-time
 function initTableFilter() {
     const input = document.getElementById("search-input");
     const table = document.querySelector(".table-responsive table");
@@ -44,7 +43,7 @@ function initTableFilter() {
     });
 }
 
-// ===== Validasi form (client-side) =====
+// Validasi form (client-side)
 function tampilkanError(input, pesan) {
     hapusError(input);
     const span = document.createElement("span");
